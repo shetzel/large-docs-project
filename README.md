@@ -1,4 +1,4 @@
-This is an sfdx project that contains 10 large docs, each 4 MB.  With this project you can reproduce an issue where trying to deploy the docs results in a `EXCEEDED_MAX_SIZE_REQUEST` error from the Metadata API, but retrieving the same docs there is no `EXCEEDED_MAX_SIZE_REQUEST` error when there should be.
+This is an sfdx project that contains 10 large docs, each 4 MB.  With this project you can reproduce an issue where trying to deploy the docs results in a `EXCEEDED_MAX_SIZE_REQUEST` error from the Metadata API, but retrieving the same docs there is no `EXCEEDED_MAX_SIZE_REQUEST` error when there should be.  Even deploying 10 more docs of the same size, then trying to retrieve 20 docs will not cause an error from the Metadata API.
 
 Steps to repro:
 1. Create a scratch org with an existing devhub.  `sfdx force:org:create -f config/project-scratch-def.json -s -a so1`
