@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>LargeDocs</members>
+        <members>LargeDocs/sample_pdf_with_images6</members>
+        <members>LargeDocs/sample_pdf_with_images7</members>
+        <members>LargeDocs/sample_pdf_with_images8</members>
+        <members>LargeDocs/sample_pdf_with_images9</members>
+        <members>LargeDocs/sample_pdf_with_images10</members>
+        <name>Document</name>
+    </types>
+    <version>55.0</version>
+</Package>
